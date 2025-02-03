@@ -1,7 +1,25 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</variable></variables><block type="device_forever" id="EH.vEVY2~?YS_u7aANbR" x="-644" y="-37"><statement name="HANDLER"><block type="controls_if" id="iIcZ@?5x]oPtoIo1n:o2"><value name="IF0"><shadow type="logic_boolean" id="}4yzkfj5{`Qf|Du@g#S6" disabled-reasons="MANUALLY_DISABLED"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ZsDG**g.2XTj5~qfLmzO"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="biHamO|-+z1^oJ*|(+7A"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="4WJv0G$!Z{kBAHm.-(%f"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="(KyIzCZJyk^`XFk;XBDM"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</variable></variables><block type="device_forever" id="EH.vEVY2~?YS_u7aANbR" x="-299" y="-197"><statement name="HANDLER"><block type="variables_set" id="aBkBlGPxW/gHRE4Xfg6!"><field name="VAR" id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</field><value name="VALUE"><shadow type="math_number" id="PD]`M{(VHt+R5@IDBy`6"><field name="NUM">0</field></shadow><block type="device_heading" id="MRhk])A3|KBi(CR[oxHL"></block></value><next><block type="controls_if" id="8L=u=^#Wa4]%K|SlsaM+"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="%O8MRT]I7p}~6#}?=DeH"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="a@)E`Z7p+6czf,yRSVRg"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="w2F-XjvI_U{}#F$e1otJ"><field name="NUM">0</field></shadow><block type="variables_get" id="Lpb,04,e6)ffLR+5Rd!R"><field name="VAR" id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</field></block></value><value name="B"><shadow type="math_number" id="2[$2R3cTN)D+?62d#tE;"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="F`44a~-|ytYp0kkDP%{D"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # . # . # 
         . . # . . 
         . . # . .
-        `</field></block></statement></block></statement></block><block type="variables_get" id="CmK-{Z4IVuP?,315l7Y`" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-284" y="99"><field name="VAR" id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</field></block><block type="logic_compare" id="YcoW@b+{z}(v`ZOnV33(" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-447" y="183"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="iEUou[,[!+6DeC/U,OaM" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="c:VV}HkM1^x,:U]-jzEo" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow></value></block></xml>
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="=y]$KF$EPF61%=(0L7ky"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="$RB7{N@!QPJUr1S^X7t["><field name="OP">LT</field><value name="A"><shadow type="math_number" id="w2F-XjvI_U{}#F$e1otJ"><field name="NUM">0</field></shadow><block type="variables_get" id="w#c;8tgjB%IT}M^@%ep}"><field name="VAR" id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</field></block></value><value name="B"><shadow type="math_number" id="vt{}Y%iF/]hd=eD5|wZ."><field name="NUM">135</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="%gW]e$;X]@7[i5tl}b^Z"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="z0,,?Ve}jf@JGwlybO[p"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="hC:=OT)xX=_}I9Vm?4#g"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="w2F-XjvI_U{}#F$e1otJ"><field name="NUM">0</field></shadow><block type="variables_get" id="VV];^k!3GQ9|U;nB1d]A"><field name="VAR" id="/%~d}wl%yOim5~y8M;,m">waarde van het kompas</field></block></value><value name="B"><shadow type="math_number" id="[3fu$=yFhg9BFpnoKm9,"><field name="NUM">225</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="SlscG4kJm3GhyHTQI$tG"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="*4LcvVDCfI0r6$G.@2}6"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block></xml>
